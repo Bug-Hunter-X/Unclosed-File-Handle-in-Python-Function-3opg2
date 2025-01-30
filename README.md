@@ -1,0 +1,1 @@
+This repository demonstrates a common error in Python: unclosed file handles. The `bug.py` file contains a function that opens a file but doesn't always close it properly, leading to potential resource leaks. The `bugSolution.py` file shows the corrected version using a `with` statement for proper resource management.
